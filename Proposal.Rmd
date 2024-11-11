@@ -1,0 +1,26 @@
+---
+title: "P8108: Project Proposal (Group 10)"
+output: pdf_document
+fontsize: 11pt
+linestretch: 2
+---
+
+# Project Outline
+
+### Category: Analysis survival data from real-world applications
+
+### Topic
+
+### Objective
+
+### Planned approaches
+
+# Timeline
+
+# Roles of each team member
+
+1. Haitian Huang (hh3043)
+2. Ru Jin Lim (rl3411)
+3. Tianhui Huang (th3070)
+4. Tianyou He (th3072)
+5. Yixiao Sun (ys3765)
