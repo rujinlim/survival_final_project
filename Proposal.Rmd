@@ -17,6 +17,8 @@ linestretch: 2
 
 # Timeline
 
+In-class Final Project Presentation is still on 12/06 and the Final Project Report is still due on 12/13.
+
 # Roles of each team member
 
 1. Haitian Huang (hh3043)
