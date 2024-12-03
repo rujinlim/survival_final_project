@@ -5,24 +5,51 @@ fontsize: 11pt
 linestretch: 2
 ---
 
-# Project Outline
+Category: Analysis of survival data from real-world applications
 
-### Category: Analysis survival data from real-world applications
+Topic: Analysis of Eye Disease Progression in Patients with Different Laser Therapies
 
-### Topic
+# Data Source: 
+1. W. J. Huster, R. Brookmeyer and S. G. Self (1989). Modeling paired survival data with covariates, Biometrics 45:145-156.
+2. A. L. Blair, D. R. Hadden, J. A. Weaver, D. B. Archer, P. B. Johnston and C. J. Maguire (1976). The 5-year prognosis for vision in diabetes, American Journal of Ophthalmology, 81:383-396.
 
-### Objective
+# Objective: 
+To examine the effect of different laser treatments (argon and xenon) on the time to progression of an eye disease, with a focus on evaluating survival times based on various risk factors. This analysis will explore whether certain factors, such as age, treatment type, and risk score, influence the likelihood of disease progression.
 
-### Planned approaches
+# Planned Approaches:
+
+1. Data Exploration and Preparation:
+
+Inspect the dataset for any missing values or inconsistencies, particularly in key columns such as futime (follow-up time) and status (progression event indicator).
+Summarize the demographic and clinical characteristics of the sample, including age, type (adult or juvenile), laser type, eye (left or right), and risk score.
+
+2. Kaplan-Meier Survival Analysis:
+
+Use the Kaplan-Meier estimator to plot survival curves, representing the time until disease progression (as indicated by status) for different subgroups.
+Stratify survival curves by laser type (argon vs. xenon) to assess if one treatment is associated with longer survival times compared to the other.
+
+3. Log-Rank Test for Group Comparison:
+
+Conduct a log-rank test to compare survival distributions between the different laser treatments. Additionally, test other covariates, such as type (adult vs. juvenile) and risk score categories, to identify statistically significant differences in survival times.
+
+4. Cox Proportional-Hazards Model:
+Fit a Cox Proportional-Hazards model to evaluate the effect of multiple covariates, including laser type, age, risk score, and type (juvenile or adult), on the hazard of disease progression.
+Interpret hazard ratios to understand the relative impact of each factor on the time to progression, indicating which variables may increase or decrease the likelihood of disease progression.
+
+5. Model Validation and Sensitivity Analysis:
+
+Validate the Cox model by checking the proportional hazards assumption and performing cross-validation. Conduct sensitivity analysis by exploring interaction terms or testing the model under different subsets of the data to ensure robust findings.
 
 # Timeline
 
-In-class Final Project Presentation is still on 12/06 and the Final Project Report is still due on 12/13.
+1. Data Cleaning and Model Building due on 11/29.
+2. PowerPoint and Presentation due on 12/03.
+3. Final Project Report due on 12/12.
 
-# Roles of each team member
+# Roles of each team member (Everyone is responsible for coding)
 
-1. Haitian Huang (hh3043)
-2. Ru Jin Lim (rl3411)
-3. Tianhui Huang (th3070)
-4. Tianyou He (th3072)
-5. Yixiao Sun (ys3765)
+1. Haitian Huang (hh3043): Background
+2. Ru Jin Lim (rl3411): Method
+3. Tianhui Huang (th3070): Results
+4. Tianyou He (th3072): Interpretation/Discussion
+5. Yixiao Sun (ys3765): Conclusion/References.

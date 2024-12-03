@@ -9,6 +9,13 @@ linestretch: 2
 
 # Methods
 
+```{r}
+library(survival)
+data(package = "survival")
+
+b<- survival::diabetic  
+```
+
 # Results
 
 # Discussion
